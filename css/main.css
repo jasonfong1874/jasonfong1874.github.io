@@ -1,0 +1,39 @@
+.title-main{
+	color: #E71A39;
+}
+
+.signboard{
+	display: block;
+	width: 720px;
+	height: auto;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.img_zoo{
+	display: block;
+	float: left;
+}
+
+.img_container{
+	background-color: transparent;
+	display: inline-block;
+	outline: none;
+	vertical-align: middle;
+}
+
+.img_Giraffa{
+	background-image: url(/images/img_zoo.png);
+	height: 150px;
+	width: 150px;
+	display: block;
+}
+
+.siteName{
+	float: left;
+
+}
