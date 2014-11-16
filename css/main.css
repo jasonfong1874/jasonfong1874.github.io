@@ -1,39 +1,43 @@
-.title-main{
-	color: #E71A39;
-}
-
-.signboard{
-	display: block;
+.main_container{
+	background-color: #4c4c4c;
 	width: 720px;
-	height: auto;
-	position: relative;
-	margin-left: auto;
+	padding: 10px;
 	margin-right: auto;
-	padding-left: 20px;
-	padding-right: 20px;
-
+	margin-left: auto;
 }
 
-.img_zoo{
-	display: block;
-	float: left;
+.banner{
+	background-color: #808080;
+	width: 100%;
+	padding: 10px;
 }
 
-.img_container{
-	background-color: transparent;
-	display: inline-block;
-	outline: none;
-	vertical-align: middle;
+.banner_container{
+	background-color: #b2b2b2;
+	height: 130px;
+	width: 100%;
 }
 
-.img_Giraffa{
-	background-image: url(/images/img_zoo.png);
-	height: 150px;
-	width: 150px;
-	display: block;
+.main_content{
+	background-color: #808080;
+	width: 100%;
+	padding: 10px;
 }
 
-.siteName{
-	float: left;
+.content_container{
+	background-color: #b2b2b2;
+	height: 300px;
+	width: 100%;
+}
 
+.footer{
+	background-color: #808080;
+	width: 100%;
+	padding: 10px;
+}
+
+.footer_container{
+	background-color: #b2b2b2;
+	height: 40px;
+	width: 100%;
 }
