@@ -1,0 +1,30 @@
+body{
+	background-color: #4c4c4c;
+}
+
+.box{
+	width: 720px;
+	height: 600px;
+	background-color: #999999;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.banner{
+	width: 400px;
+	background-color: #888888;
+	overflow: auto;
+}
+
+.menu{
+	width: 150px;
+	background-color: #777777;
+	overflow: auto;
+	float: left;
+}
+
+.Artical-list{
+	width: 500px;
+	overflow: auto;
+	background-color: #666666;
+}
