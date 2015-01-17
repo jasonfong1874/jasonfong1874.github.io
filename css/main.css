@@ -1,30 +1,106 @@
 body{
-	background-color: #4c4c4c;
+	background-color: #F8F4ED;
+	font-family: "helvetica";
 }
 
 .box{
 	width: 720px;
 	height: 600px;
-	background-color: #999999;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 .banner{
 	width: 400px;
-	background-color: #888888;
 	overflow: auto;
 }
 
 .menu{
-	width: 150px;
-	background-color: #777777;
+	width: 90px;
 	overflow: auto;
 	float: left;
 }
 
-.Artical-list{
-	width: 500px;
-	overflow: auto;
-	background-color: #666666;
+.menu ul{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	list-style: none;
+	padding-left: 0px;
+	text-align: right;
+	color: #777777;
+
 }
+
+.menu a{
+	text-decoration: none;
+	color: #989898;
+}
+
+.menu li{
+	margin-bottom: 5px;
+}
+
+.menu ul{
+	padding-top: 20px;
+}
+
+.main{
+	width: 600px;
+	margin-left: 120px;
+	overflow: auto;
+}
+
+.designer-draft-list{
+	width: 600px;
+	overflow: auto;
+}
+
+.designer-draft-list-item{
+	width: 600px;
+	overflow: auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-width: 0 0 1px 0;
+	border-color: #E8E6E3;
+}
+
+.designer-draft-cover{
+	width: 100px;
+	height: 100px;
+	float: right;
+	overflow: auto;
+}
+
+.designer-draft-brief{
+	width: 490px;
+}
+
+.designer-draft-title{
+	width: 490px;
+	font-size: 20px;
+	color: #808080;
+	font-weight: bold;
+}
+
+.designer-draft-professional{
+	width: 490px;
+	font-size: 15px;
+	color: #888888;
+	margin-bottom: 6px;
+}
+
+.designer-draft-subtitle{
+	width: 490px;
+	font-size: 16px;
+	color: #777777;
+	margin-bottom: 4px;
+}
+
+.designer-draft-date{
+	font-size: 14px;
+	color: #b2b2b2;
+}
+
+
+
+
