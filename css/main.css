@@ -44,6 +44,14 @@ body{
 	padding-top: 20px;
 }
 
+.menu-selected-item{
+	font-weight: bold;
+	color: #666666;
+	border-width: 0 0 0 3px;
+	border-color: #999999;
+	border-style: solid;
+}
+
 .main{
 	width: 600px;
 	margin-left: 120px;
@@ -100,6 +108,7 @@ body{
 	font-size: 14px;
 	color: #b2b2b2;
 }
+
 
 
 
