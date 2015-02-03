@@ -53,69 +53,71 @@ body{
 
 .main{
 	width: 96%;
-	overflow: auto;
+	overflow: hidden;
 	padding-left: 2%;
 	padding-right: 2%;
 }
 
-.designer-draft-list{
+.work-list{
 	width: 100%;
-	overflow: auto;
+	overflow: hidden;
 }
 
-.designer-draft-list-item{
-	width: 100%;
-	overflow: auto;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	border-width: 0 0 1px 0;
-	border-color: #E8E6E3;
+.work-block{
+	margin-bottom: 8%;
+}
+
+.work-img-container{
+	/*width: 99%;*/
+	height: auto;
+	background-color: #ffffff;
 	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	border-color: rgba(178,178,178,0.38);
+	overflow: hidden;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+
 }
 
-.designer-draft-cover{
-	width: 80px;
-	height: 80px;
-	float: right;
-	overflow: auto;
+.work-img{
+
 }
 
-.designer-draft-cover a{
-	display: block;
-}
-
-.designer-draft-cover img{
-	height: 80px;
-	width: 80px;
-}
-
-.designer-draft-brief{
+.work-img a{
 	width: 100%;
+	display: block;
+	overflow: hidden;
 }
 
-.designer-draft-title{
-	font-size: 20px;
-	color: #808080;
-	font-weight: bold;
+.work-img a:hover{
+	opacity: 0.7;
 }
 
-.designer-draft-professional{
-	font-size: 15px;
-	color: #888888;
-	margin-bottom: 6px;
+.work-img img{
+	width: 100%;
+	overflow: hidden;
 }
 
-.designer-draft-subtitle{
-	font-size: 16px;
+.work-title{
+	margin-top: 2%;
+}
+
+.work-title a{
+	display: block;
+	margin-left: auto;
+	text-decoration: none;
+	font-size: 18px;
 	color: #777777;
-	margin-bottom: 4px;
+	text-align: center;
 }
 
-.designer-draft-date{
-	font-size: 14px;
-	color: #b2b2b2;
+.work-title a:hover{
+	color: #333333;
 }
-
 
 
 
