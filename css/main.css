@@ -78,6 +78,10 @@ body{
 	overflow: auto;
 }
 
+.designer-draft-cover img{
+	width: 100px;
+}
+
 .designer-draft-brief{
 	width: 490px;
 }
