@@ -35,7 +35,7 @@ function setNormalStyle(){
 	var link = document.createElement('link');
     link.type="text/css";
     link.rel="stylesheet";
-    link.href="gfcss/content_artical.css";
+    link.href="../../css/content_artical.css";
     document.getElementsByTagName('head')[0].appendChild(link);
 }
 
@@ -43,7 +43,7 @@ function setMobileStyle(){
 	var link = document.createElement('link');
 	link.type="text/css";
 	link.rel="stylesheet";
-	link.href="css/content_artical_mobile.css";
+	link.href="../../css/content_artical_mobile.css";
 	document.getElementsByTagName('head')[0].appendChild(link);
 }
 
