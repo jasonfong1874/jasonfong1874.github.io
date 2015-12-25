@@ -23,12 +23,15 @@
 // code for homepage index html
 
 function stopScale(){
-	if (screen.availWidth<350) {
+	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 		var meta = document.createElement('meta');
 		meta.content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1";
 		meta.name="viewport";
 		document.getElementsByTagName('head')[0].appendChild(meta);
-	};
+	}
+	else{
+
+	}
 }
 
 function setNormalStyle(){
@@ -48,23 +51,26 @@ function setMobileStyle(){
 }
 
 function stylePicker(){
-	if (screen.availWidth<350) {
+	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 		setMobileStyle();
 	}
 	else{
 		setNormalStyle();
-	};
+	}
 }
 
 // code for normal index html
 
 function stopScaleNormalIndex(){
-	if (screen.availWidth<350) {
+	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 		var meta = document.createElement('meta');
 		meta.content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1";
 		meta.name="viewport";
 		document.getElementsByTagName('head')[0].appendChild(meta);
-	};
+	}
+	else{
+
+	}
 }
 
 function setNormalStyleNormalIndex(){
@@ -84,13 +90,61 @@ function setMobileStyleNormalIndex(){
 }
 
 function stylePickerNormalIndex(){
-	if (screen.availWidth<350) {
+	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 		setMobileStyleNormalIndex();
 	}
 	else{
 		setNormalStyleNormalIndex();
-	};
+	}
 }
+
+// // code for new solution to detecting device
+
+// function stylePickerByAgent(){
+// 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) 
+// 	{
+//     	setMobileStyle();
+// 	}
+// 	else{
+// 		setNormalStyle();
+// 	}
+// }
+
+// function stopScaleByAgent(){
+// 	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+// 		var meta = document.createElement('meta');
+// 		meta.content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1";
+// 		meta.name="viewport";
+// 		document.getElementsByTagName('head')[0].appendChild(meta);
+// 	}
+// 	else{
+		
+// 	}
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

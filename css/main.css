@@ -89,6 +89,7 @@ body{
 
 .designer-draft-title{
 	width: 490px;
+	margin-bottom: 7px;
 }
 
 .designer-draft-title a{
@@ -100,14 +101,17 @@ body{
 
 .designer-draft-professional{
 	width: 490px;
-	font-size: 15px;
+	font-size: 13px;
 	color: #888888;
-	margin-bottom: 6px;
+	margin-bottom: 4px;
 }
 
 .designer-draft-subtitle{
-	width: 490px;
-	font-size: 16px;
+	width: 480px;
+	font-size: 15px;
+	font-family: "STSong","STHeiti","PingFang";
+	letter-spacing: 0.3px;
+	line-height: 1.2;
 	color: #777777;
 	margin-bottom: 4px;
 }
