@@ -78,6 +78,7 @@ body{
 	height: 80px;
 	float: right;
 	overflow: auto;
+	margin-top: 5px;
 }
 
 .designer-draft-cover a{

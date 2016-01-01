@@ -23,7 +23,7 @@
 //
 
 function stopScale(){
-	if (screen.availWidth<350) {
+	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 		var meta = document.createElement('meta');
 		meta.content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1";
 		meta.name="viewport";
@@ -48,7 +48,7 @@ function setMobileStyle(){
 }
 
 function stylePicker(){
-	if (screen.availWidth<350) {
+	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 		setMobileStyle();
 	}
 	else{
