@@ -94,6 +94,10 @@ body{
 	width: 100%;
 }
 
+.designer-draft-title{
+	margin-bottom: 3px;
+}
+
 .designer-draft-title a{
 	font-size: 20px;
 	color: #808080;
