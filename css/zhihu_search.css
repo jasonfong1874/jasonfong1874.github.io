@@ -1,0 +1,32 @@
+.mainContainer{
+	width: 600px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.inputBoxTitle{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	text-align: center;
+	font-family: 'Andale Mono';
+	font-size: 26px;
+	color: #0285DD;
+}
+
+.inputBox{
+	width: 500px;
+	height: 36px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: white;
+	border-color: #D3DCE4;
+	border-width: 1px;
+	border-style: solid;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 16px;
+	color: #A2A2A2;
+}
