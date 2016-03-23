@@ -1,6 +1,6 @@
  function keyWordSearch () {
  	document.getElementById("inputBox1").focus();
- 	var urlHead = "https://www.zhihu.com/search?type=question&q=";
+ 	var urlHead = "http://www.zhihu.com/search?type=question&q=";
  	document.onkeydown=keyListener;
 		function keyListener () {
 			if (event.keyCode==13) {
